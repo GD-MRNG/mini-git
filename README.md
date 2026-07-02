@@ -76,6 +76,9 @@ pointer forward.
 string always produces the same hash, and how `refs` is genuinely just a
 `{name: hash}` dictionary.
 
+**Try it for real:** see [docs/try-it-for-real.md](docs/try-it-for-real.md#group-1--the-object-model)
+for hands-on commands against this repo's actual `.git/objects` and remotes.
+
 ---
 
 ## Group 2 — History as a Graph (`git_model.py`: `merge`, `rebase`, `cherry_pick`)
@@ -109,6 +112,9 @@ just three different operations *on that graph*:
 **Try it:** the merge/conflict/rebase/cherry-pick sections. Pay attention to
 which commit hashes change and which don't — that's the whole lesson.
 
+**Try it for real:** see [docs/try-it-for-real.md](docs/try-it-for-real.md#group-2--history-as-a-graph)
+for the same operations with real `git merge` / `rebase` / `cherry-pick`.
+
 ---
 
 ## Group 3 — The Distributed Model (`git_model.py`: `clone`, `fetch`, `push`, `pull`)
@@ -135,6 +141,9 @@ fundamentally different kind of thing.
 **Try it:** the last two sections of the demo. Two independent clones
 (`dev_a`, `dev_b`) both start from the same commit; `dev_a` pushes first;
 `dev_b`'s push is **rejected** until it pulls dev_a's work in.
+
+**Try it for real:** see [docs/try-it-for-real.md](docs/try-it-for-real.md#group-3--the-distributed-model)
+for real `git clone` / `fetch` / `push` / `pull`, including a real rejected push.
 
 ---
 
@@ -166,6 +175,9 @@ safety properties.
 **Try it:** the reset/revert sections. Notice that after `reset --hard`, the
 "mistake" commit is still physically present in `repo.store.objects` — it's
 just no longer reachable — and the reflog still remembers it.
+
+**Try it for real:** see [docs/try-it-for-real.md](docs/try-it-for-real.md#group-4--undoing-things--inspection)
+for real `git reset` / `revert` / `reflog` / `fsck`.
 
 ---
 
