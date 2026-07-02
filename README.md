@@ -6,6 +6,8 @@ built for conceptual clarity, not as a real implementation. It's meant to be
 read alongside running it: every concept below has corresponding code in
 `git_model.py`, organized into the same four groups.
 
+**Source:** [competencies-db / git_glenn_lum_2026 / level_0](https://github.com/GD-MRNG/competencies-db/blob/main/git_glenn_lum_2026/level_0.md)
+
 **Setup:** no dependencies beyond the Python standard library. Using
 [uv](https://github.com/astral-sh/uv):
 ```
