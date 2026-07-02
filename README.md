@@ -11,13 +11,12 @@ read alongside running it: every concept below has corresponding code in
 **Setup:** no dependencies beyond the Python standard library. Using
 [uv](https://github.com/astral-sh/uv):
 ```
-uv venv
-source .venv/bin/activate
+uv sync
 ```
 
 **Run it:**
 ```
-python3 git_model.py
+uv run git_model.py
 ```
 
 It prints a guided tour through every concept, in dependency order, with
