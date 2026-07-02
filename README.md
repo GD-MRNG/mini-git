@@ -6,6 +6,13 @@ built for conceptual clarity, not as a real implementation. It's meant to be
 read alongside running it: every concept below has corresponding code in
 `git_model.py`, organized into the same four groups.
 
+**Setup:** no dependencies beyond the Python standard library. Using
+[uv](https://github.com/astral-sh/uv):
+```
+uv venv
+source .venv/bin/activate
+```
+
 **Run it:**
 ```
 python3 git_model.py
